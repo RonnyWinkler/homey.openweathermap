@@ -268,7 +268,7 @@ class owmOnecallCurrent extends Homey.Device {
         catch(error){
             this.log("Error reading OWM data:", error.message);
             this.log("Full Error: ", error);
-            this.setDeviceUnavailable(this.homey.__("device_unavailable_reason.no_api_result: "+error.message));
+            this.setDeviceUnavailable(this.homey.__("device_unavailable_reason.no_api_result") + " " + error.message);
             return;
         }
         if (!data || !data.current){

@@ -314,5 +314,9 @@
   "1.8.5": {
     "en": "Fixed OneCall daily summary timestamp.",
     "de": "OneCall Tägliche Vorhersage, Zeitstempel korrigiert."
+  },
+  "1.8.6": {
+    "en": "Added http timeout. Fixed API error message.",
+    "de": "HTTP-Timeout hinzugefügt. API-Fehlermeldung korrigiert."
   }
 }
